@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="it">
+<!--comment-->
+	<head>
+		<title>Storia dell'istruzione | Amor di patria</title>
+		<!--bootstrap CSS-->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+		<!--personal CSS-->
+		<link rel="stylesheet" href="style/scaffolding.css"/>
+		<!--icon CSS-->
+		<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+		<link rel="manifest" href="img/icon/site.webmanifest">
+		<!--meta-->
+		<meta charset="UTF-8"/>
+		<!--google charts script-->
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	    <script type="text/javascript">
+	      // Load the Visualization API and the corechart package.
+	      google.charts.load('current', {'packages':['corechart']});
+	      // Set a callback to run when the Google Visualization API is loaded.
+	      google.charts.setOnLoadCallback(drawChart1);
+	      google.charts.setOnLoadCallback(drawChart2);
+	      google.charts.setOnLoadCallback(drawChart);
+	      // Callback that creates and populates a data table,
+	      // Create the function
+	      function drawChart1() {
+	     		// sinthetic data example
+	     		var data = new google.visualization.DataTable();
+        	data.addColumn('string', 'Anno accademico');
+        	data.addColumn('number', '1° classe');
+        	data.addColumn('number', '2° classe');
+        	data.addColumn('number', '3° classe');
+        	data.addColumn('number', '4° classe');
+        	data.addColumn('number', '5° classe');
+        	data.addRows([
+          ['2015/16', 511770, 513770, 513770, 517997, 508909],
+          ['2016/17', 501571, 508983, 512984, 514021, 519213],
+          ['2017/18', 486490, 499331, 508166, 508839, 510074],
+          ['2018/19', 476422, 484760, 499097, 508839, 514479],
+          ['2019/20', 460379, 475166, 484836, 499652, 510074],
+          ['2020/21', 446286, 456842, 472951, 483001, 498414],
+          ['2021/22', 440733, 448361, 459211, 476062, 486639],
+        	]);
+        	// Get the dimensions of the container
+			    var container = document.getElementById('chart_1');
+			    var containerWidth = container.clientWidth;
+			    var containerHeight = container.clientHeight;
+        	// Set chart options
+        	var options = { 'title': 'Alunni della scuola primaria statale',
+        									'legend':'bottom',
+      										'width': containerWidth,
+											    'height': containerHeight,
+											    isStacked: true,
+											    colors: ['#CAF0F8', '#90E0EF', '#00B4D8', '#0077B6', '#03045E']
+											  };
+          // Instantiate and draw our chart, passing in some options.
+        	var chart = new google.visualization.ColumnChart(document.getElementById('chart_1'));
+    			chart.draw(data, options);    	
+	      	}
+	      	function drawChart2() {
+	     		// sinthetic data example
+	     		var data = new google.visualization.DataTable();
+        	data.addColumn('string', 'Anno accademico');
+        	data.addColumn('number', '1° classe');
+        	data.addColumn('number', '2° classe');
+        	data.addColumn('number', '3° classe');
+        	data.addColumn('number', '4° classe');
+        	data.addColumn('number', '5° classe');
+        	data.addRows([
+          ['2015/16', 33429, 34531, 35131, 36015, 36814],
+          ['2016/17', 33210, 34194, 34301, 34722, 35653],
+          ['2017/18', 31981, 33461, 33660, 33777, 34115],
+          ['2018/19', 31939, 33032, 33616, 33942, 33881],
+          ['2019/20', 30611, 32486, 33009, 33493, 33840],
+          ['2020/21', 29756, 31195, 32312, 33004, 33391],
+          ['2021/22', 30530, 30645, 31576, 32543, 33077],
+        	]);
+        	// Get the dimensions of the container
+			    var container = document.getElementById('chart_2');
+			    var containerWidth = container.clientWidth;
+			    var containerHeight = container.clientHeight;
+        	// Set chart options
+        	var options = { 'title': 'Alunni della scuola primaria paritaria',
+        									'legend':'bottom',
+      										'width': containerWidth,
+											    'height': containerHeight,
+											    isStacked: true,
+											    colors: ['e0b1cb', 'be95c4', '9f86c0', '5e548e', '231942']
+											  };
+          // Instantiate and draw our chart, passing in some options.
+        	var chart = new google.visualization.ColumnChart(document.getElementById('chart_2'));
+    			chart.draw(data, options);    	
+	      	}
+	    </script>
+	</head>
+	<body>
+		<header>
+			<span id="top"></span>
+			<!--banner; new class on CSS-->
+			<div class="container-fluid background-banner p-5">
+				<div class="row p-1">
+					<div class="col-md-10 align-self-center">
+						<p><a href="index.html"><img src="img/layout/brand-name.png" class="img-fluid btn btn-light" title="Torna alla pagina principale" alt="Torna alla pagina principale"></a></p>
+					</div>
+					<div class="col-md-2 text-end text-light align-self-end">
+						<p>IT | <a class="btn btn-light opacity-50" href="index-en.html" title="English homepage">EN</a></p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav class="navbar sticky-top navbar-dark navbar-expand-lg bg-dark bg-gradient">
+			  <div class="container-fluid">
+			  	<a class="navbar-brand btn btn-light" href="index.html" title="Torna alla pagina principale"> <img src="img/icon/clio-icon.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link" aria-current="page" title="Torna alla pagina principale" href="index.html">Home</a>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Conosci il Centro">
+			            Il Centro
+			          </a>
+			          <ul class="dropdown-menu">
+			            <li><a class="dropdown-item" href="aboutus.html" title="Scopri di più sui nostri ricercatori">Chi siamo</a></li>
+			            <li><a class="dropdown-item" href="#" title="Consulta le nostre ricerche">Ricerche</a></li>
+			            <li><a class="dropdown-item" href="#" title="Consulta i nostri contatti">Contatti</a></li>
+			          </ul>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link disabled" title="Consulta la rivista scientifica">Rivista</a>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Consulta i nostri progetti">
+			            Progetti
+			          </a>
+			          <ul class="dropdown-menu">
+			            <li><a class="dropdown-item" href="#">Scuole e archivi</a></li>
+			            <li><a class="dropdown-item" href="#">Didattiche</a></li>
+			            <li><hr class="dropdown-divider"></li>
+			            <li><a class="dropdown-item" href="#">Altri progetti</a></li>
+			          </ul>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" href="collection.html" title="Accedi alle fonti">Raccolte</a>
+			        </li>
+			      </ul>
+			      <form class="d-flex" role="search">
+			        <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+			        <button class="btn btn-outline-danger" type="submit">Cerca</button>
+			      </form>
+			    </div>
+  			</div>
+		</nav>
+		<!--breadcrumbactive -->		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="breadcrumb-bar">
+					<ul class="breadcrumb">
+					  	<li><a href="index.html" title="Torna alla pagina principale">Home</a></li>
+					  	<li><a href="collection.html" title="Torna alle raccolte">Accesso alle raccolte</a></li>
+					  	<li><a href="coll-type-digital.html" title="Torna ai libri scolastici">Dati</a></li>
+					  	<li><a><span class="title" id="A000001">Alunni delle scuole statali e paritarie per livello scolastico, istituto, anno di corso ed età</span></a></li>
+					</ul> 
+				</div>
+			</div>
+		</div>
+		<section>
+			<div class="container-fluid bg-img">
+				<div class="row border border-dark bg-light m-1">
+						<h3>Alunni delle scuole statali e paritarie per livello scolastico, istituto, anno di corso ed età</h3>
+						<p><a href="https://dati.istruzione.it/opendata/opendata/catalogo/elements1/?area=Studenti" hreflang="it">Portale unico dei dati dell'istruzione/Open-data/Studenti</a>, Ministero dell'istruzione</p>
+						<div class="row">
+        			<div class="col-sm"><div id="chart_1" class="chart"></div></div>
+        			<div class="col-sm"><div id="chart_2" class="chart"></div></div>
+						</div>
+						<div class="row">
+        			<div class="col-sm"><div id="chart_3" class="chart"></div></div>
+        			<div class="col-sm"><div id="chart_4" class="chart"></div></div>
+						</div>
+				</div>
+				<div class="row border border-dark bg-light m-1">
+					<h4>Dati</h4>
+					<p>I dati sono stati rielaborati per facilitare un'analisi diacronica della popolazione scolastica negli anni più recenti, per cui le <a href="https://seriestoriche.istat.it/index.php?id=1&no_cache=1&tx_usercento_centofe%5Bcategoria%5D=7&tx_usercento_centofe%5Baction%5D=show&tx_usercento_centofe%5Bcontroller%5D=Categoria&cHash=1b020e5419ca607971010a98271e3209" hreflang="it" title="Accedi ai dati ISTAT">serie storiche ISTAT</a> non sono disponibili.</p> 
+					<p>Il codice Python usato per creare i nuovi file è disponibile qui: <a class="btn btn-danger p-1" href="csv/csv-creator.py" title="Scarica il codice Python per unire i file csv" download="Join-csv.py">Join-csv.py</a> <a class="btn btn-danger p-1" href="csv/csv-creator.py" title="Scarica il codice Python per filtrare i file csv" download="Join-csv.py">Filter-csv.py</a></p>
+					<div class="row">
+						<ul>
+							<li><h5><strong>Scuole paritarie</strong></h5></li>
+							<ol>
+								<li><a href="csv/ALUCORSOETAPAR-primaria.csv" hreflang="it" download="ALUCORSOETAPAR-primaria" title="Scarica il file csv">Scuola primaria</a></li>
+								<li><a href="csv/ALUCORSOETAPAR-secondaria1.csv" hreflang="it" download="ALUCORSOETAPAR-secondaria1" title="Scarica il file csv">Scuola secondaria di 1° grado</a></li>
+								<li><a href="csv/ALUCORSOETAPAR-secondaria2.csv" hreflang="it" download="ALUCORSOETAPAR-secondaria2" title="Scarica il file csv">Scuola secondaria di 2° grado</a></li>
+							</ol>
+							<li><h5><strong>Scuole statali</strong><h5></li>
+							<ol>
+								<li><a href="csv/ALUCORSOETASTA-primaria.csv" hreflang="it" download="ALUCORSOETASTA-primaria" title="Scarica il file csv">Scuola primaria</a> | I dati sono divisi per anno di corso per permetterne la visualizzazione corretta nei fogli di calcolo:
+									<ul class="not-inherit">
+										<li><a href="csv/ALUCORSOETASTA-primaria-1.csv" hreflang="it" download="ALUCORSOETASTA-primaria-1" title="Scarica il file csv">Classe 1°</a></li>
+										<li><a href="csv/ALUCORSOETASTA-primaria-2.csv" hreflang="it" download="ALUCORSOETASTA-primaria-2" title="Scarica il file csv">Classe 2°</a></li>
+										<li><a href="csv/ALUCORSOETASTA-primaria-3.csv" hreflang="it" download="ALUCORSOETASTA-primaria-3" title="Scarica il file csv">Classe 3°</a></li>
+										<li><a href="csv/ALUCORSOETASTA-primaria-4.csv" hreflang="it" download="ALUCORSOETASTA-primaria-4" title="Scarica il file csv">Classe 4°</a></li>
+										<li><a href="csv/ALUCORSOETASTA-primaria-5.csv" hreflang="it" download="ALUCORSOETASTA-primaria-5" title="Scarica il file csv">Classe 5°</a></li>
+									</ul>
+								</li>
+								<li><a href="csv/ALUCORSOETASTA-secondaria1.csv" hreflang="it" download="ALUCORSOETASTA-secondaria1" title="Scarica il file csv">Scuola secondaria di 1° grado</a></li>
+								<li><a href="csv/ALUCORSOETASTA-secondaria2.csv" hreflang="it" download="ALUCORSOETASTA-secondaria2" title="Scarica il file csv">Scuola secondaria di 2° grado</a></li>
+							</ol>
+						</ul>
+						<h4>Elaborazione</h4>
+						<p>Per filtrare i dati utili è possibile usare la funzione SOMMA.PIU.SE() di Microsoft Excel o gli equivalenti in altre applicazioni.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container-fluid bg-dark bg-gradient">
+				<div class="row">
+					<div class="col-sm-8 text-info">
+						<p></p>
+						<p><a href="#top"><img src="img/layout/top.png" title="Torna all'inizio della pagina" alt="Torna all'inizio della pagina" style="width:50px;height:50px;"></a></p>
+						<h3><strong>Centro di ricerca italiano di Storia dell'istruzione</strong></h3>
+						<p>Alma Mater Studiorum - Università di Bologna<br/>CF:0123456789X<br/>Indirizzo: Piazza S. Giovanni in Monte 2, 40124 Bologna</p>
+						<iframe class="footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.7630977676159!2d11.34803568764373!3d44.49076734265407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4b8ad09bd2f%3A0xf54dff048cb7cc26!2sPiazza%20S.%20Giovanni%20in%20Monte%2C%202%2C%2040124%20Bologna%20BO!5e0!3m2!1sit!2sit!4v1699695757905!5m2!1sit!2sit" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<p>Tel: <a href="tel:+391234567890" title="Chiama il Centro">+391234567890</a><br/>E-mail: <a href="mailto:email@example.com" title="Scrivi al Centro">crisi@unibo.it</a></p>	
+					</div>
+					<div class="col-sm-4 text-light">
+						<p><br/>Il <em>Crisi</em> è il centro di ricerca e documentazione nazionale per tutto ciò che riguarda l'istruzione, la scuola e l'educazione come fenomeno collettivo e istituzionalizzato.</p>
+						<ul>
+							<li>Presidenza:</li>
+							<li>Redazione:</li>
+						</ul>
+						<p>Sito realizzato da <a><em>Placeholder</em></a></p>
+						<div class="border p-1 border-dark bg-light text-center text-dark">
+							<p>Social networks</p>
+							<p>
+								<a href="#" hreflang="it" target="_blank"><img class="soc" src="img/layout/soc-fb.png"/></a>
+								<a href="#" hreflang="it" target="_blank"><img class="soc" src="img/layout/soc-tw.png"/></a>
+								<a href="#" hreflang="it" target="_blank"><img class="soc" src="img/layout/soc-yt.png"/></a>
+								<a href="#" hreflang="it" target="_blank"><img class="soc" src="img/layout/soc-link.svg"/></a>
+								<a href="#" hreflang="it" target="_blank"><img class="soc"src="img/layout/soc-ig.svg"/></a>
+								<a href="#" hreflang="it" target="_blank"><img class="soc" src="img/layout/soc-r.svg"/></a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row text-center text-white">
+					<p>&copy Davide Perfetti, 2023<br/>DOI: 10.012345/placeholder</p>
+				</div>
+			</div>
+		</footer>
+		<!--aside
+		<aside>
+			<p>Aside content</p>
+		</aside>
+		active -->
+		<!--bootstrap JS-->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

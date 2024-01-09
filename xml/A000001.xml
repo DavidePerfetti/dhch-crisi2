@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vivo="http://vivoweb.org/ontology/core#" xmlns:viaf="http://viaf.org/viaf/" xmlns:local="http://xml/local-terms.xml">
+  <dc:title xml:lang="it">Amor di patria. Il libro della quinta classe elementare. Testo di lettura per le alunne</dc:title>
+  <dc:alternative>Amor di patria</dc:alternative>
+  <dc:creator>
+    <dc:firstName>Francesco</dc:firstName>
+    <dc:lastName>Sapori</dc:lastName>
+    <dc:identifier scheme="VIAF">71030964</dc:identifier>
+    <dc:identifier scheme="local">sapori-francesco-1890-1964</dc:identifier>
+    <dc:source scheme="URL">https://siusa.archivi.beniculturali.it/cgi-bin/siusa/pagina.pl?TipoPag=prodpersona&amp;Chiave=46717</dc:source>
+    <dcterms:relation xml:lang="it">Testo</dcterms:relation>
+  </dc:creator>
+  <dc:contributor>
+    <dc:firstName>Carlo Vittorio</dc:firstName>
+    <dc:lastName>Testi</dc:lastName>
+    <dc:identifier scheme="VIAF">89774421</dc:identifier>
+    <dc:identifier scheme="local">testi-carlovittorio-1902-2005</dc:identifier>
+    <dcterms:relation xml:lang="it">Illustrazioni</dcterms:relation>
+  </dc:contributor>
+  <dc:publisher>
+    <dc:publisherName xml:lang="it">La Libreria dello Stato</dc:publisherName>
+    <dc:identifier scheme="VIAF">136699896</dc:identifier>
+  </dc:publisher>
+  <dc:date>1935</dc:date>
+  <dc:coverage>
+    <dc:location xml:lang="it">Roma</dc:location>
+    <dc:location scheme="URL">http://vocab.getty.edu/page/tgn/7000874</dc:location>
+    <dc:identifier scheme="VIAF">251380480</dc:identifier>
+  </dc:coverage>
+  <dc:format scheme="ISBD">1 vol. 294 p. : ill. b&amp;w ; 21cm </dc:format>
+  <!-- Print version -->
+  <dc:hasFormat>
+    <dc:source xml:lang="it">Officine grafiche A. Mondadori</dc:source>
+    <dc:date>1937</dc:date>
+    <dc:coverage>
+      <dc:location>Verona</dc:location>
+      <dc:location scheme="URL">http://vocab.getty.edu/page/tgn/7003262</dc:location>
+      <dc:identifier scheme="VIAF">140704516</dc:identifier>
+    </dc:coverage>
+    <dcterms:alternative xml:lang="it">Verona, 1937, XV Era Fascista</dcterms:alternative>
+  </dc:hasFormat>
+  <!-- Subjects: Primary education, Education, Fascism and women, Textbooks, Fascism and education -->
+  <dc:subject scheme="dcterms:DDC">371.320945</dc:subject>
+  <dc:subject scheme="dcterms:DDC">372</dc:subject>
+  <dc:subject scheme="dcterms:UDC">37</dc:subject>
+  <dc:subject scheme="dcterms:UDC">373</dc:subject>
+  <dc:subject scheme="ISCED">1</dc:subject>  
+  <dc:subject scheme="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh85047370</dc:subject>
+  <dc:subject scheme="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh85134296</dc:subject>
+  <dc:subject scheme="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh85047365</dc:subject>
+  <!-- Digital version -->
+  <dc:hasFormat>
+    <dc:identifier scheme="URL">https://scuoladelfascismo.it/wp-content/uploads/2023/03/5.%20SAPORI_Amor%20di%20Patria.%20Letture%20alunne%20V%20elementare_SAPORI.pdf</dc:identifier>
+    <dc:dateSubmitted>2023-03-05</dc:dateSubmitted>
+    <dc:relation xml:lang="it">La Scuola del Fascismo</dc:relation>
+    <dc:relation scheme="URL">https://www.scuoladelfascismo.it/</dc:relation>
+    <dc:rights>All rights reserved 2023</dc:rights>
+    <dc:creator>
+        <dc:creator xml:lang="it">Sapienza - Università di Roma</dc:creator>
+        <dc:viafId>143759573</dc:viafId>
+    </dc:creator>
+    <dc:format>application/pdf</dc:format>
+  </dc:hasFormat>
+  <!-- Local record -->
+  <dc:identifier scheme="local">A000001</dc:identifier>
+  <dc:description>Textbook for the fifth-year female students in primary school (ISCED 1 or 5th grade). The anthology celebrates the Italian fascist regime and women's contribution for the greater good, as sisters, wives and mothers supporting the male citizen.</dc:description>
+  <!-- Bibliographical relations -->
+  <dc:isReferencedBy> <!-- 1 -->
+    <dc:title>«Strapparsi di dosso il fascismo». L’educazione di regime nella «generazione degli anni difficili»</dc:title>
+    <dc:identifier scheme="ISBN">978-88-6542-920-4</dc:identifier>
+    <dc:identifier scheme="URL">https://www.scuoladipitagora.it/libreria/strapparsi-di-dosso-il-fascismo-open-access</dc:identifier>
+    <dc:identifier scheme="local">A000002</dc:identifier>
+    <dc:creator>
+      <dc:firstName>Rosanna</dc:firstName>
+      <dc:lastName>Morace</dc:lastName>
+      <dc:identifier scheme="VIAF">222803983</dc:identifier>
+      <dc:identifier scheme="local">morace-rosanna-1980-</dc:identifier>
+      <dc:relation>Eds.</dc:relation>
+    </dc:creator>
+    <dc:publisher>
+      <dc:publisherName xml:lang="it">La scuola di Pitagora</dc:publisherName>
+      <dc:identifier scheme="CF">IT05237011217</dc:identifier>
+    </dc:publisher>
+    <dc:date>2023</dc:date>
+    <dc:coverage>
+      <dc:location xml:lang="it">Napoli</dc:location>
+      <dc:location scheme="URL">http://vocab.getty.edu/page/tgn/7051538</dc:location>
+      <dc:identifier scheme="VIAF">137842517</dc:identifier>
+    </dc:coverage>
+  </dc:isReferencedBy>
+  <dc:isReferencedBy> <!-- 2 -->
+    <dc:title>Il regime degli editori. Libri, scuola e fascismo</dc:title>
+    <dc:identifier scheme="ISBN">978-88-5811-854-2</dc:identifier>
+    <dc:creator>
+      <dc:firstName>Galfré</dc:firstName>
+      <dc:lastName>Monica</dc:lastName>
+      <dc:identifier scheme="VIAF">89667554</dc:identifier>
+      <dc:identifier scheme="local">galfre-monica-1963-</dc:identifier>
+      <dc:relation>Author</dc:relation>
+    </dc:creator>
+    <dc:publisher>
+      <dc:publisherName xml:lang="it">Laterza</dc:publisherName>
+      <dc:identifier scheme="VIAF">156003619</dc:identifier>
+    </dc:publisher>
+    <dc:date>2005</dc:date>
+    <dc:coverage>
+      <dc:location xml:lang="it">Bari</dc:location>
+      <dc:location scheme="URL">http://vocab.getty.edu/page/tgn/7004101</dc:location>
+      <dc:identifier scheme="VIAF">305126892</dc:identifier>
+    </dc:coverage>
+  </dc:isReferencedBy>
+</metadata>

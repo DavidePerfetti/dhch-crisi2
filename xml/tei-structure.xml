@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>[titolo]</title>
+				<respStmt>
+					<resp>[ruolo]</resp>
+					<name xml:id="sigla">[persona]</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>[note sulla pubblicazione digitale]</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>[descrizione della fonte di riferimento]</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+		[eventuali dati in avantesto]
+			<div type="tipologia">
+				<p/>
+			</div>
+		</front>
+		<body>
+			[contenuto del documento. Struttura: p, div, l/lg]
+		</body>
+		<back>
+			[eventuale materiale annesso]
+			<div type="tipologia">
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

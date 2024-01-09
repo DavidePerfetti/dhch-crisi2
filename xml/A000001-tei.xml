@@ -1,0 +1,434 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><!-- full-text version -->
+        <title>Amor di patria. Il libro della quinta classe elementare. Testo di lettura per le alunne</title>
+        <author ref="#sapori-francesco-1890-1964">Francesco Sapori</author>
+        <respStmt xml:id="DV.PR">
+          <resp>Codifica TEI</resp>
+          <name>Davide Perfetti</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Centro di ricerca italiano sulla storia dell'istruziione</publisher>
+        <address>
+          <addrLine>Bologna</addrLine>
+        </address>
+        <availability>
+          CC BY-NC
+        </availability>
+        <date when="2024-01-10">10 gennaio 2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <titleStmt><!-- digitalized version -->
+          <title>Amor di patria. Il libro della quinta classe elementare. Testo di lettura per le alunne</title>
+          <author ref="#sapori-francesco-1890-1964">Francesco Sapori</author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>Sapienza - Università di Roma</publisher>
+          <address>
+            <addrLine>Roma</addrLine>
+          </address>
+          <availability>
+            All rights reserved
+          </availability>
+          <date when="2023-03-05">5 marzo 2023</date>
+        </publicationStmt>
+        <sourceDesc>
+          <titleStmt><!-- original source -->
+            <title>Amor di patria. Il libro della quinta classe elementare. Testo di lettura per le alunne</title>
+            <author ref="#sapori-francesco-1890-1964">Francesco Sapori</author>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>La Libreria dello Stato</publisher>
+            <address>
+              <addrLine>Roma</addrLine>
+            </address>
+            <availability>
+              <p>Source's physical versions are available for reading in public libraries at: 
+                http://id.sbn.it/bid/LO10613270 (ed. 1936-xv)
+                http://id.sbn.it/bid/PUV0721328 (ed. 1937)
+                http://id.sbn.it/bid/TO01612249 (ed. 1938-xvii)
+              </p>
+            </availability>
+            <publisher type="printing">Officine grafiche A. Mondadori</publisher>
+            <address>
+              <addrLine>Verona</addrLine>
+            </address>
+            <date when="1937">A. 1937-XV</date>
+          </publicationStmt>
+        </sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+    <classDecl>
+      <taxonomy xml:id="school-taxonomy">
+        <category xml:id="material">
+          <catDesc>School and teaching material</catDesc>
+          <category xml:id="material-textbook">
+            <catDesc>Textbooks</catDesc>
+            <category xml:id="material-textbook-readings">
+              <catDesc>Anthologies and readings</catDesc>
+            </category>
+          </category>
+        </category>
+        <category xml:id="students">
+          <catDesc>Students in formal education</catDesc>
+          <category xml:id="students-compulsory">
+            <catDesc>Compulsory education</catDesc>
+            <category xml:id="students-compulsory-primary">
+              <catDesc>Primary education (ISCED 1)</catDesc>
+              <category xml:id="students-compulsory-primary-5a">
+                <catDesc>5th year, mixed class</catDesc>
+              </category>
+              <category xml:id="students-compulsory-primary-5aF">
+                <catDesc>5th year, female-only class</catDesc>
+              </category>
+              <category xml:id="students-compulsory-primary-5aM">
+                <catDesc>5th year, male-only class</catDesc>
+              </category>
+            </category>
+            <category xml:id="students-compulsory-low.secondary">
+              <catDesc>Lower secondary education (ISCED 2)</catDesc>
+            </category>
+            <category xml:id="students-compulsory-upp.secondary">
+              <catDesc>Upper secondary education (ISCED 3)</catDesc>
+            </category>
+          </category>
+        </category>
+      </taxonomy>
+    </classDecl>
+    <encodingDesc>
+      <p xml:lang="it">L'uso di "<term></term>" senza ulteriori informazioni indica la segnalazione di termini che sono interessanti da segnalare per categorie analitiche specifiche (genere, occupazione, ecc.), ma il tempo per impostarle va oltre le necessità del prototipo.</p>
+      <p>The following definitions describe the document's layout</p>
+      <tagsDecl>
+        <rendition xml:id="allcaps">text-transform: uppercase;</rendition>
+        <rendition xml:id="bold">font-weight: bold;</rendition>
+        <rendition xml:id="centre">text-align: center;</rendition>
+        <rendition xml:id="italic">font-style: italic;</rendition>
+        <rendition xml:id="dropcap"> <!--capolettera-->
+        font-size : 3em; 
+        font-weight : bold;
+        font-style: italic; 
+        vertical-align: top; 
+        height: 1em; 
+        line-height: 1em; 
+        float : left; 
+        width : 1em; 
+        margin: 0em; 
+        padding: 0px;
+        </rendition>
+        <rendition xml:id="page-middle">
+          vertical-align: middle;
+          text-align: center;
+        </rendition>
+        <rendition xml:id="page-bottom">
+          vertical-align: bottom;
+          text-align: center;
+        </rendition>
+        <rendition xml:id="page-top">
+          vertical-align: top;
+          text-align: center;
+        </rendition>
+        <rendition xml:id="hyphen"/>
+        <rendition xml:id="justify">text-align: justify;</rendition>
+        <rendition xml:id="left">text-align: left;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="sapori-francesco-1890-1964">
+            <persName sameAs="http://viaf.org/viaf/71030964">Francesco Sapori (1890-1964)</persName>
+          </person>
+          <person xml:id="testi-carlovittorio-1902-2005">
+            <persName sameAs="http://viaf.org/viaf/89774421">Carlo Vittorio Testi (1902-2005)</persName>
+          </person>
+          <person xml:id="mussolini-benito-1883-1945">
+            <persName sameAs="http://viaf.org/viaf/90162262">Benito Mussolini (1883-1945)</persName>
+          </person>
+          <personGrp xml:id="ISCED-1-5aFF">
+            <gender value="W">Women</gender>
+            <age atLeat="10" atMost="11">From 10 to 11 years old</age>
+            <birth from="1926">Born after 1926</birth>
+            <nationality key="IT">Italian</nationality>
+            <education type="primary" notBefore="1937-10-29">Attending 5th year of primary school</education>
+            <occupation scheme="#school-taxonomy" cod="#students-compulsory-primary-5a">Students in compulsory primary education</occupation>
+          </personGrp>
+          <personGrp xml:id="fasc-F-8/14">
+            <persName xml:lang="it">Piccole italiane</persName>
+            <affiliation from="1926-4-3" to="1945">Compulsory enrollmente. Under the responsability of <orgName><abbr cert="high" type="acronym" ref="#128821449">ONB</abbr></orgName></affiliation>
+            <gender value="W">Women</gender>
+            <age atLeat="8" atMost="14">From 8 to 14 years old</age>
+            <birth from="1918" notAfter="1938">Born after 1926 and before 1938</birth>
+            <nationality key="IT">Italian</nationality>
+          </personGrp>
+          <personGrp xml:id="it-poets-xiii">
+          </personGrp>
+          <personGrp xml:id="it-sculp">
+          </personGrp>
+          <personGrp xml:id="it-paint">
+          </personGrp>
+          <personGrp xml:id="it-minia">
+          </personGrp>
+          <person xml:id="cath-god">
+            <persName xml:lang="it">Dio</persName>
+            <persName xml:lang="en">God</persName>
+            <affiliation sameAs="http://viaf.org/viaf/130782063">Catholic Church</affiliation>
+          </person>
+        </listPerson>
+        <listOrg>
+          <org xml:id="ISCED-1-5a">
+            <orgName xml:lang="it">Scuola primaria, Classe 5a</orgName>
+            <desc>5th year of primary education</desc>
+          </org>
+          <org xml:id="it">
+            <orgName xml:lang="it" from="1861" to="1946">Regno d'Italia</orgName>
+            <orgName xml:lang="it" from="1946">Repubblica italiana</orgName>
+            <desc>Kingdom of Italy (1861-1945) and Italian Republic (1946-)</desc>
+            <listPlace>
+              <place>
+                <country key="IT">
+                <placeName>Italy</placeName>
+                <geogName>Italian peninsula</geogName>
+                <region id="it-lazio" notBefore="1870">
+                  <placeName xml:lang="it">Lazio</placeName>
+                  <district xml:id="it-RO">
+                    <placeName xml:lang="it" from="1870-10-15">Provincia di Roma</placeName>
+                    <settlement xml:id="it-roma">
+                      <placeName xml:lang="it">Roma</placeName>
+                      <org xml:id="136699896">
+                        <orgName sameAs="http://viaf.org/viaf/136699896">Libreria dello Stato, Istituto Poligrafico e Zecca dello Stato</orgName>
+                        <event when="1928-12-6">
+                          <label>Founded in 1928</label>
+                        </event>
+                        <desc>Publishing activity of the State Mint and Polygraphic Institute</desc>
+                      </org>
+                      <org xml:id="128821449">
+                        <orgName sameAs="http://viaf.org/viaf/128821449">Opera Nazionale Balilla</orgName>
+                        <event when="1926-4-3">
+                          <label>Founded in 1926</label>
+                        </event>
+                        <desc>Fascist youth organization under governative oversight</desc>
+                      </org>
+                    </settlement>
+                  </district>
+                </region>
+                </country>
+              </place>
+            </listPlace>
+            <listEvent>
+              <listEvent xml:id="fascist-era-years">
+                <event xml:id="EF16-XVI" from="1937-10-29" to="1938-10-28">
+                  <eventName xml:lang="it">XVI Era Fascista</eventName>
+                </event>
+              </listEvent>
+            </listEvent>
+          </org>
+        </listOrg>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="it">
+    <front>
+      <figure>
+        <figDesc>Copertina in carta flessibile usurata, colore blu acceso con scritte bianche cubitali. Ci sono sei quadrifogli bianchi con le ombreggiature gialle sparsi tra i titoli</figDesc>
+        <titlePage rendition="allcaps">
+          <docTitle>
+            <titlePart type="sub" rendition="page-top">
+              <p>Il libro di 
+              <term ref="#ISCED-1-5a">quinta classe</term></p>
+              <p><term ref="#material-textbook-readings">Testo di letture</term>
+              per le 
+              <term ref="#ISCED-1-5aFF">alunne</term></p>
+            </titlePart>
+            <titlePart type="main" rendition="page-middle">Amor di Patria</titlePart>
+          </docTitle>
+          <byline>
+            <docImprint rendition="page-bottom">
+              <publisher ref="#136699896">La libreria dello Stato.</publisher>
+              <dateline>
+                <placeName ref="#it-RO">Roma.</placeName>
+                <docDate ref="#EF16-XVI">A.A.XVI</docDate>
+              </dateline> 
+            </docImprint>
+          </byline>
+        </titlePage>
+      </figure>
+    </front>
+    <body>
+      <pb n="003"/> 
+      <titlePage>
+        <docTitle>
+          <titlePart type="sub" rendition="page-top allcaps">
+            <p>Il libro di 
+            <term ref="#ISCED-1-5a">quinta classe</term></p>
+            <p><term ref="#material-textbook-readings">Testo di letture</term>
+            per le 
+            <term ref="#ISCED-1-5aFF">alunne</term></p>
+          </titlePart>
+        </docTitle>
+        <figure rendition="page-middle">
+          <docTitle>
+            <titlePart type="main">Amor di Patria</titlePart>
+          </docTitle>
+          <figDesc><term>Incisione</term> in <term>bianco e nero</term>. <term>Fascio littorio</term> con quattro gruppi di foglie che crescono da dietro.</figDesc>
+        </figure>
+        <byline>
+          <docImprint rendition="page-bottom allcaps">
+            <p><publisher ref="#136699896">La libreria dello Stato</publisher></p>
+            <p><dateline>
+              <placeName ref="#it-RO">Roma</placeName>
+              <docDate ref="#EF16-XVI">A. XVI</docDate>
+            </dateline></p> 
+          </docImprint>
+        </byline>
+      </titlePage>
+      <pb n="004"/>
+      <div rendition="page-middle allcaps">
+        <ab>Testo di</ab>
+        <ab><persName ref="#sapori-francesco-1890-1964">Francesco Sapori</persName></ab>
+        <ab>Illustrazioni di</ab>
+        <ab><persName ref="#testi-carlovittorio-1902-2005">Carlo Testi</persName></ab>
+      </div>
+      <pb n="005"/>
+      <div xml:id="premessa" rendition="italic">
+        <head rendition="allcaps centre">Premessa</head>
+        <p><c rendition="dropcap">I</c> <term ref="#it-poets-xiii"><hi rendition="allcaps">nostri poeti</hi> del <q>dolce stil novo</q></term>, cantando per le rime i mesi dell'anno, fissarono nei versi endecasillabi le opere dei campi e gli svaghi dei cavalieri. Così <term ref="#it-sculp">i nostri artefici</term> del <eventName from="476" to="1492">Medio Evo</eventName>, scolpendo marmi tra le arcate della cattedrali; così <term ref="#it-paint">i pittori</term>, affrescando sale nei palazzi e passetti nelle torri; così <term ref="#it-minia">i miniatori</term>, decorando i fogli delle pergamene manoscritte, rappresentarono i mesi con forme armoniche e suggestive figure.</p>
+        <p>Un clima luminoso si diffonde dalla terra al cielo d'<country key="IT">Italia</country>: congiunge i monti al mare, le città alle compagne, le celle campanarie agli alberi da frutto. In una meravigliosa coordinazione di profili e di colori, i canti accompagnano le gesta. Ma celebrare le glorie del passato sarebbe poca cosa, se non vi fossero sempre nuove mete da raggiungere.</p>
+        <p>Queste pagine di sentimento, le quali muovono dall'Ottobre, comprendono il tempo della scuola e il tempo delle vacanze: amabili tutti e due nel ritmo che non s'interrompe, nella luce di <name ref="#cath-god">Dio</name> che li benedice.</p>
+      </div>
+      <pb n="006"/>
+      <pb n="007"/>
+      <div1 xml:id="parte-01" n="01" type="part">
+        <head rendition="allcaps italic centre">Parte prima</head>
+        <figure rendition="page-middle" xml:id="fig1">
+          <figDesc><term>Illustrazione stampata</term>, <term>bianco e nero</term>, forma circolare. Quattro buoi al giogo sono condotti da un contadino per arare il terreno.</figDesc>
+        </figure>
+      <pb n="008"/>
+      <pb n="009"/>
+        <div2 xml:id="ottobre" n="01-1" type="chapter">
+          <head rendition="allcaps centre"><term>Ottobre</term></head>
+          <div3 xml:id="ottobre-poesia" n="01-1-1" rendition="italic">
+            <lg rendition="left">
+              <l n="01"><c>O</c>ttobre. Il vino bolle dentro ai tini.</l>
+              <l n="02">Rinfresca. Già pioviscola sui campi</l>
+              <l n="03">la prima nebbia. Il contadino scruta</l>
+              <l n="04">il cielo e dice: <q>è tempo della sémina</q>.</l>
+              <l n="05">Quindi rovescia fuor dei sacchi il grano</l>
+              <l n="06">bianco di calce; il vallo lo fa biondo.</l>
+              <l n="07">Stride il <term>vomere</term>; cozza nel maggese.</l>
+              <l n="08">mordendo l'erbe che gli fanno inciampo.</l>
+              <l n="09">Vola a mezz'aria la sementa e cade,</l>
+              <l n="10">con quell'antico gesto che ripete</l>
+              <l n="11">passo passo la <name>pia seminatrice</name>.</l>
+              <l n="12">Contempla il rito e ascolta la campagna,</l>
+              <l n="13">tutta avvolta nel <term>saio monacale</term>.</l>
+              <l n="14">Guardan le siepi màdide, e le piante</l>
+              <l n="15">in lunghe file, squallide mèndiche,</l>
+              <l n="16">tentennano le scarne braccia al vento.</l>
+              <l n="17">Pur se la nebbia è fitta e l'orizzonte</l>
+              <l n="18">scuro, dolersi non bisogna, o <term>figli</term></l>
+              <l n="19">della terra. Chi semina con pianto</l>
+              <l n="20">nel silenzio e nell'ombra, mieterà</l>
+              <l n="21">la nuova estate con molta allegrezza.</l>
+              <l n="22">E sarà pane ciò che a torto parve</l>
+              <l n="23">fatica rude, spoglia d'ogni serto.</l>
+              <l n="24">E sarà frutto turgido la poca</l>
+              <l n="25">cosa ch'ebbe il suo tumolo sotterra.</l>
+            </lg>
+          </div3>
+      <pb n="010"/>
+          <div3 xml:id="impero-etiopia" n="01-1-2" type="paragraph">
+            <head>L'impero Fascista in Etiopia</head>
+            <p>...</p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 xml:id="parte-12" n="12" type="part">
+        <div2 xml:id="ottobre" n="12-1" type="chapter">
+      <pb n="285"/>
+          <div3 xml:id="decalogo-fasc-F-8/14" n="12-1-8" type="paragraph">  
+            <head><term>Decalogo</term> e speranze della <persName ref="#fasc-F-8/14">Piccola Italiana</persName></head>
+            <p><persName ref="#fasc-F-8/14">Piccola Italiana</persName>, questo è il tuo <term>giuramento</term>: <q>Nel nome di <term ref="#cath-god">Dio</term> e dell'<country key="IT"></country>Italia giuro di eseguire gli ordini del
+            <persName>
+              <choice>
+                <abbr>Duce</abbr>
+                <expan cert="high">Capo del governo</expan>
+                <expan cert="high" xml:id="mussolini-benito-1883-1945">Benito Mussolini</expan>
+              </choice>
+            </persName>
+            e di servire con tutte le mie forze, e, se è necessario, col mio sangue, la <term>Causa della Rivoluzione fascista</term></q>.</p>
+            <p><persName ref="#fasc-F-8/14">Piccola Italiana</persName>, questi sono alcuni <term>precetti</term>  ai quali devi ispirarti:</p>
+            <q>
+              <p>Compiere il proprio <term>dovere</term> di <roleName>figlia</roleName>, di <roleName>sorella</roleName>, di <roleName ref="ISCED-1-5aFF">scolara</roleName>, di <roleName>amica</roleName>, con <term>bontà</term>, <term>letizia</term>, anche se il dovere è talvolta pesante.</p>
+              <p>Servire la <country key="IT">Patria</country> come la <roleName>Mamma</roleName> più grande, la <roleName>Mamma</roleName> di tutti i <term>buoni Italiani</term>.</p>
+              <p>Amare il
+              <persName>
+                <choice>
+                  <abbr>Duce</abbr>
+                  <expan cert="high">Capo del governo</expan>
+                  <expan cert="high" xml:id="mussolini-benito-1883-1945">Benito Mussolini</expan>
+                </choice>
+              </persName>,
+              che ha reso la <country key="IT">Patria</country> più forte e più grande.</p>
+              <p><term>Obbedire</term> con gioia ai <term>superiori</term>.</p>
+              <p>Avere il <term>coraggio</term> di opporsi a chi consiglia il male e deride l'<term>onestà</term>.</p>
+              <p>Educare il proprio <term>corpo</term> a vincere la fatica e l'anima a non temere il dolore.</p>
+              <p>Fuggire la <term>stupidà vanità</term>, ma amare le cose belle.</p>
+              <p>Amare il <term>lavoro</term> che è vita e armonia.</p>
+            </q>
+            <p><persName ref="#fasc-F-8/14">Piccola Italiana</persName>, questo è il <term>decalogo</term> della tua disciplina:
+              <q><list xml:id="decalogo-fasc-F-8/14" type="decalogue">
+                <item n="1">Prega e adòperati per la pace; ma prepara il tuo cuore alla <term>guerra</term>.</item>
+                <item n="2">Ogni sciagura è mitigata dalla <term>forza d'animo</term>, dal <term>lavoro</term>, dalla <term>carità</term>.</item>
+                <item n="3">La <country key="IT">Patria</country> si serve anche <term>spazzando la propria casa</term>.</item>
+                <item n="4">La <term>disciplina civile</term> comincia dalla <term>disciplina famigliare</term>.</item>
+      <pb n="286"/>
+                <item n="5">Il <roleName>cittadino</roleName> cresce per la difesa e la gloria della <country key="IT">Patria</country> accanto alla <roleName>madre</roleName>, alle <roleName>sorelle</roleName>, alla <roleName>sposa</roleName>.</item>
+                <item n="6">Il <roleName>soldato</roleName> sostiene ogni fatica ed ogni vicenda per la difesa delle <roleName>sue donne</roleName> e della <placeName>sua casa</placeName>.</item>
+                <item n="7">Durante la <eventName>guerra</eventName> la <term>disciplina delle truppe</term> riflette la <term>resistenza morale</term> delle <term>famiglie</term> a cui presiede la <gender value="W">donna</gender>.</item>
+                <item n="8">La <gender value="W">donna</gender> è la <roleName>prima responsabile</roleName> del destino di un popolo.</item>
+                <item n="9">Il
+                  <persName>
+                    <choice>
+                      <abbr>Duce</abbr>
+                      <expan cert="high">Capo del governo</expan>
+                      <expan cert="high" xml:id="mussolini-benito-1883-1945">Benito Mussolini</expan>
+                    </choice>
+                  </persName>
+                ha ricostruito la <term>vera famiglia italiana</term>: <term>ricca di figli</term>, <term>parca nei bisogni</term>, <term>tenace</term> nella fatica, ardente nella <term>fede fascista</term> e
+                  <choice>
+                    <abbr>cristiana.</abbr>
+                    <expan cert="high">fede cristiana.</expan>
+                  </choice>
+                </item>
+                <item n="10">La <gender value="W">donna</gender> <term>italiana</term> è <term>mobilitata</term> dal
+                  <persName>
+                    <choice>
+                      <abbr>Duce</abbr>
+                      <expan cert="high">Capo del governo</expan>
+                      <expan cert="high" xml:id="mussolini-benito-1883-1945">Benito Mussolini</expan>
+                      </choice>
+                  </persName>
+                al servizio della <country key="IT">Patria</country>.</item>
+              </list></q>
+            </p>
+            <p>Crescendo avvolte di luce, armate di <term>bontà</term> e <term>forza</term>, voi sarete <roleName>portatrici</roleName> di <term>robustezza fisca</term> e di <term>salute morale</term>. <roleName>Reginelle</roleName> nel <placeName>piccolo regno della casa</placeName>.</p>
+            <p>Come non essere fieri della nostra <country key="IT">Patria</country>? Noi la amiamo d'un <term ref="#amor-di-patria">vero e profondo amore</term>. E <persName ref="#fasc-F-8/14">tu, Piccola Italiana,</persName> sei <roleName> la naturale interprete, la fedele consegnataria</roleName> del <term ref="#amor-di-patria">nostro sentimento</term>.</p>
+            <p>Che il tuo cammino sia pieno di rose. Che le benedizioni dei <roleName>genitori</roleName> si convertano in altrettante consolazioni nell'esistenza che ti aspetta. Che il più ténero e soave tripudio possa compensarti degli immancabili <term>sacrificÎ</term> e degli inevitabili <term>dolori</term>! La <term>religione</term> ci aiuta e consiglia a trasfigurare la realtà. Guàrdati intorno: una luce mistica sorride al nostro viaggio terreno. La nostra coscienza assurge all'idea del cielo.</p>
+            <p>La storia e la gloria della <orgName>Chiesa di Cristo</orgName> càntano dai campanili, risplendono nel volo d'oro delle cupole. Gli insigni monumenti ascendono anch'essi, come i beati, tra il <term>martirio</term> e l'<term>apoteosi</term>.</p>
+      <pb n="287"/>
+            <p>Anche a noi occorrono, ogni giorno, conforti di luce e di rivelazioni. Qualcosa d'intimo, di spontaneo, ci guida verso la <term>clemenza</term>, la <term>giustizia</term>, l'<term>intrepidezza</term>. Vengano ancora <roleName>santi apostoli, santi armati, santi guerrieri, santi cavalieri</roleName> a combattere i draghi e a scompigliare i mostri per trionfo del <term ref="greater-good">bene</term>.</p>
+            <p>Mira la dolce stupefazione del giorno che nasce. Il cuore s'incontra con la <term>natura</term>. L'<term>aratro</term>, la <term>barca</term>, la <term>carlinga</term>, s'apprestano al loro viaggio. Angioli annunziatori battono alle porte dell'immaginazione. Le nuvole ardono lassù come incensieri.</p>
+            <p>Leggiamo il <name sameAs="http://viaf.org/viaf/223078470">Vangelo</name>, che è il supremo insegnamento della 
+              <choice>
+                <abbr>fede</abbr>
+                <expan cert="high">fede cristiana.</expan>
+              </choice>
+            . Così si educano e si ingentiliscono le anime pel <term ref="greater-good">bene di tutti</term>, nell'<term>amore e nel culto di <name ref="#cath-god">Dio</name></term>.</p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

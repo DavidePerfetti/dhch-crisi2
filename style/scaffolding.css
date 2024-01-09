@@ -1,0 +1,234 @@
+/*commento*/
+/*https://www.w3schools.com/colors/colors_names.asp*/
+/*https://www.w3schools.com/howto/howto_google_fonts.asp*/
+body {
+}
+section {
+	max-width: 1280px;
+	margin: auto;
+}
+
+/*header*/
+header {
+}
+
+/*banner*/
+.background-banner{
+	background-attachment: fixed;
+	background-image: url(../img/layout/banner-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*carousel*/
+.carousel-caption{
+	background-color: black;
+	border-style: solid;
+	border-color: lightgray;
+}
+
+/*navbar + footer*/
+nav, footer {
+}
+iframe.footer-map{
+	width: 100%;
+	max-width: 500px;
+	height: 150px;
+	border-width: 3px;
+	border-color: gold;
+	border-style: solid;
+}
+
+/*active page in navbar*/
+.active-page {
+	font-weight:bold;
+}
+
+
+/*accordion*/
+.accordion-button {
+	font-weight:bold;
+	color: #FFC107;
+}
+
+/*div*/
+div {
+	margin: auto;
+}
+div.row{
+	margin: auto;
+}
+div.bg-img {
+	background-image: url(main.avif);
+	background-repeat: repeat;
+	background-position: center;
+}
+div.border{
+	border-radius: 5px;
+}
+
+div.chart{
+	border-style: solid;
+	background-color: white;
+	border-width: 1px;
+	border-color: grey;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 100%;
+	height: 500px;
+}
+div.coll-data{
+	background-color: white;
+	list-style-type: square;
+	border-radius: 5px;
+}
+ul{
+	list-style-type: inherit;
+} /*to define list style in div instead of inline*/
+ul.not-inherit{
+	list-style-type: initial;
+} /*to avoid ul inheriting ol*/
+span.reset{
+	font-size: 25px;
+}
+
+/*aside*/
+aside {
+  width: 20%;
+  padding-left: 10px;
+  margin-left: 10px;
+  float: right;
+  /*font-style: italic;*/
+  background-color: lightgray;
+}
+
+/*h1*/
+h1 {
+	font-weight: bold;	
+}
+h1, h2, h3, h4, h5 {
+	margin-bottom: 10px;	
+}
+
+/*span*/
+span.capolettera{
+	font-size : 3em; 
+  font-weight : bold;
+  font-style: italic; 
+ 	vertical-align: top; 
+  height: 1em; 
+  line-height: 1em; 
+  float : left; 
+  width : 1em; 
+  margin: 0em; 
+  padding: 0px;
+}
+span.creator{
+	font-weight: bold;
+}
+span.title{
+	font-style: italic;
+}
+span.publisher{
+	
+}
+span.date{
+	
+}
+span.location{
+	
+}
+
+/*link*/
+a {
+	cursor:pointer;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+}
+a:active {
+	text-decoration: none;
+}
+
+/*images*/
+img.item {
+	width: 100%;
+}
+img.soc {
+	height: 50px;
+	margin: 2px;
+}
+img.bio-icon {
+	height: 50px;
+	margin: 1px;
+}
+img.coll-icon {
+	height: 60px;
+	margin: 1px;
+}
+
+/*object*/
+object.pdf{
+	width: 90%;
+	height: 500px;
+	margin: auto;
+	border: solid;
+	border-color: gold;
+}
+
+/*table*/
+table.metadata{
+	padding: 1px;
+	background-color: #e6f3ff;
+	width: 95%;
+	margin: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color:   #99cfff;
+}
+table.metadata th{
+	text-transform: uppercase;
+	background-color:#cce7ff;
+}
+table.metadata a{
+	color:#0000e6;
+}
+table.metadata a:hover{
+	color:#000066;
+}
+table.metadata th, td{
+	border-style: solid;
+	border-width: 1px;
+	border-color:   #b3dbff;
+}
+th, td{
+	padding: 1em;
+}
+
+
+/*breadcrumb navigation*/
+div.breadcrumb-bar{
+	border-style: solid;
+	border-width: 2px;
+}
+ul.breadcrumb {
+  padding: 5px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 5px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+}

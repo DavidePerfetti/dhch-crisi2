@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd http://purl.org/dc/terms/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd">
+    <!--DC Metadata-->
+    <dc:title>Title of the Cultural Heritage Item</dc:title>
+    <dc:creator>Creator or Author of the Item</dc:creator>
+    <dc:subject>Keywords or phrases related to the item</dc:subject>
+    <dc:description>A description of the cultural heritage item.</dc:description>
+    <dc:publisher>The entity responsible for making the item available</dc:publisher>
+    <dc:contributor>Additional contributors to the item</dc:contributor>
+    <dc:date>Publication or creation date of the item</dc:date>
+    <dc:type>Genre or nature of the resource</dc:type>
+    <dc:format>File format or physical medium of the item</dc:format>
+    <dc:identifier>Unique identifier or URL for the item</dc:identifier>
+    <dc:source>Reference to the resource from which the present resource is derived</dc:source>
+    <dc:language>Language of the item</dc:language>
+    <dc:relation>Relationship to other resources</dc:relation>
+    <dc:rights>Information about rights held in and over the resource</dc:rights>
+    <!--DC Terms-->
+    <dcterms:alternative>Alternative title or other variations</dcterms:alternative>
+    <dcterms:abstract>Summary or abstract of the content</dcterms:abstract>
+    <dcterms:tableOfContents>Table of contents for the item</dcterms:tableOfContents>
+    <dcterms:created>Creation date of the resource</dcterms:created>
+    <dcterms:available>Date when the resource became or will become available</dcterms:available>
+    <dcterms:issued>Date of formal issuance (e.g., publication) of the resource</dcterms:issued>
+    <dcterms:modified>Date on which the resource was changed</dcterms:modified>
+    <dcterms:extent>Size or duration of the resource</dcterms:extent>
+    <dcterms:medium>Physical or digital medium of the resource</dcterms:medium>
+    <dcterms:isPartOf>Reference to a larger resource of which the described resource is a part</dcterms:isPartOf>
+    <dcterms:hasPart>Reference to a smaller resource that is part of the described resource</dcterms:hasPart>
+    <dcterms:isVersionOf>Reference to a related resource that is a version, edition, or adaptation of the described resource</dcterms:isVersionOf>
+    <dcterms:hasVersion>Reference to a related resource of which the described resource is a version, edition, or adaptation</dcterms:hasVersion>
+</record>
